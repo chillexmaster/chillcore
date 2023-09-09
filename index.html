@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+      const txt = '{"name":"GDPS", "age":30, "city":"New York"}'
+      const obj = JSON.parse(txt);
+      document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chillex</title>
+    <style>
+        body {
+            margin: 0%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            margin: 1%;
+            padding: 1%;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+      <!-- Just remove this if you don't have socials, you can also add more using the <a> tag and changing it. Example: https://i.imgur.com/A3l8U43.png -->
+      <!-- The website looks bad because I'm bad at making websites, sorry no sorry! If you want to help just DM me in Discord -->
+        <a href="#Add your link here">Discord</a>
+    </header>
+    <section>
+    <h2>About us</h2>
+    <!-- Tell people why they shoud join your GDPS !-->
+        <p>This GDPS is really cool! Join today!!!</p>
+    </section>
+    <section>
+        <h2>Tools</h2>
+        <h3>Account</h3>
+        <a href="tools/account/registerAccount.php">Register</a> <a href="tools/account/activateAccount.php">Activation</a> <a href="tools/account/changeUsername.php">Username Change</a> <a href="tools/account/changePassword.php">Password Change</a>
+    </section>
+    <section>
+        <h2>chillbot</h2>
+        <p>Simple Discord bot in BDFD</p>
+        <p>Links: <a href="https://github/chillexmaster/chillbot">Github</a></p>
+    </section>
+</body>
+</html>
